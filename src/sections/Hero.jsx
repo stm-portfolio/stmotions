@@ -52,17 +52,18 @@ const Hero = () => {
 
                         </span>
                         </h1>
-                        <h1>into Real Projects</h1>
-                        <h1>that Deliver Results</h1>
+                        <h1>into Visual Masterpieces</h1>
+                        <h1>that Inspire & Convert</h1>
                     </div>
                     <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-                        Hi, I'm Md. Sin-Amin, an ecomerce speacilist from Bangladesh <br/>passionate with ecomerce business.
+                        We are a creative video editing agency crafting compelling content <br/>that connects, converts, and leaves a lasting impact.
+
                     </p>
 
                     <Button
                     className="md:w-80 h-16 w-60 h-12"
                     id="button"
-                    text="See my works"
+                    text="See our Works"
                     />
 
                 </div>
