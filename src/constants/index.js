@@ -29,10 +29,10 @@ const words = [
 ];
 
 const counterItems = [
-    { value: 15, suffix: "+", label: "Years of Experience" },
-    { value: 200, suffix: "+", label: "Satisfied Clients" },
-    { value: 108, suffix: "+", label: "Completed Projects" },
-    { value: 90, suffix: "%", label: "Client Retention Rate" },
+    { value:  4, suffix: "+", label: "Years of Experience" },
+    { value: 130, suffix: "+", label: "Satisfied Clients" },
+    { value: 200, suffix: "+", label: "Completed Projects" },
+    { value: 85, suffix: "%", label: "Client Retention Rate" },
 ];
 
 const logoIconsList = [
@@ -91,98 +91,98 @@ const abilities = [
 
 const techStackImgs = [
     {
-        name: "React Developer",
+        name: "Visual Storytelling",
         imgPath: "/stmotions/images/logos/react.png",
     },
     {
-        name: "Python Developer",
+        name: "Motion Graphics",
         imgPath: "/stmotions/images/logos/python.svg",
     },
     {
-        name: "Backend Developer",
+        name: "Sound Design",
         imgPath: "/stmotions/images/logos/node.png",
     },
     {
-        name: "Interactive Developer",
+        name: "Fast Delivery",
         imgPath: "/stmotions/images/logos/three.png",
     },
     {
-        name: "Project Manager",
+        name: "Platform Optimization",
         imgPath: "/stmotions/images/logos/git.svg",
     },
 ];
 
-const techStackIcons = [
-    {
-        name: "React Developer",
-        modelPath: "/stmotions/models/react_logo-transformed.glb",
-        scale: 1,
-        rotation: [0, 0, 0],
-    },
-    {
-        name: "Python Developer",
-        modelPath: "/stmotions/models/python-transformed.glb",
-        scale: 0.8,
-        rotation: [0, 0, 0],
-    },
-    {
-        name: "Backend Developer",
-        modelPath: "/stmotions/models/node-transformed.glb",
-        scale: 5,
-        rotation: [0, -Math.PI / 2, 0],
-    },
-    {
-        name: "Interactive Developer",
-        modelPath: "/stmotions/models/three.js-transformed.glb",
-        scale: 0.05,
-        rotation: [0, 0, 0],
-    },
-    {
-        name: "Project Manager",
-        modelPath: "/stmotions/models/git-svg-transformed.glb",
-        scale: 0.05,
-        rotation: [0, -Math.PI / 4, 0],
-    },
-];
+// const techStackIcons = [
+//     {
+//         name: "React Developer",
+//         modelPath: "/stmotions/models/react_logo-transformed.glb",
+//         scale: 1,
+//         rotation: [0, 0, 0],
+//     },
+//     {
+//         name: "Python Developer",
+//         modelPath: "/stmotions/models/python-transformed.glb",
+//         scale: 0.8,
+//         rotation: [0, 0, 0],
+//     },
+//     {
+//         name: "Backend Developer",
+//         modelPath: "/stmotions/models/node-transformed.glb",
+//         scale: 5,
+//         rotation: [0, -Math.PI / 2, 0],
+//     },
+//     {
+//         name: "Interactive Developer",
+//         modelPath: "/stmotions/models/three.js-transformed.glb",
+//         scale: 0.05,
+//         rotation: [0, 0, 0],
+//     },
+//     {
+//         name: "Project Manager",
+//         modelPath: "/stmotions/models/git-svg-transformed.glb",
+//         scale: 0.05,
+//         rotation: [0, -Math.PI / 4, 0],
+//     },
+// ];
 
 const expCards = [
     {
         review:
-            "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+            "ST Motions brought creativity and storytelling finesse to our brand’s content. Their edits elevated our video marketing, improving viewer retention and engagement.",
         imgPath: "/stmotions/images/exp1.png",
         logoPath: "/stmotions/images/logo1.png",
-        title: "Frontend Developer",
+        title: "Senior Video Editor",
         date: "January 2023 - Present",
         responsibilities: [
-            "Developed and maintained user-facing features for the Hostinger website.",
-            "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-            "Optimized web applications for maximum speed and scalability.",
+            "Edited high-impact promotional and documentary-style videos for global clients.",
+            "Collaborated with marketing teams to craft compelling narratives.",
+            "Used advanced editing techniques in Adobe Premiere Pro and After Effects to boost engagement rates.",
         ],
     },
     {
         review:
-            "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+            "ST Motions’ contributions to our YouTube channel were game-changing. Their sharp cuts and creative transitions helped us grow from 10k to 100k subscribers.",
         imgPath: "/stmotions/images/exp2.png",
         logoPath: "/stmotions/images/logo2.png",
-        title: "Full Stack Developer",
-        date: "June 2020 - December 2023",
+        title: "YouTube Video Editor",
+        date: "June 2020 - December 2022",
         responsibilities: [
-            "Led the development of Docker's web applications, focusing on scalability.",
-            "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-            "Contributed to open-source projects that were used with the Docker ecosystem.",
+            "Delivered weekly edited videos for top-tier YouTube influencers across lifestyle and tech niches.",
+            "Applied motion graphics and sound design to enhance viewer experience.",
+            "Managed tight deadlines and ensured brand consistency across all videos.",
         ],
     },
     {
         review:
-            "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+            "ST Motions worked magic on our client ads. Their attention to pacing and emotion made our video campaigns stand out and drive real conversions.",
         imgPath: "/stmotions/images/exp3.png",
         logoPath: "/stmotions/images/logo3.png",
-        title: "React Native Developer",
+        title: "Ad Creative Specialist",
         date: "March 2019 - May 2020",
         responsibilities: [
-            "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-            "Improved app performance and user experience through code optimization and testing.",
-            "Coordinated with the product team to implement features based on feedback.",
+            "Produced ad creatives for Facebook, Instagram, and TikTok campaigns.",
+            "Executed A/B edits to test different visual approaches for better performance.",
+            "Coordinated with media buyers to understand campaign goals and adapt edits accordingly.",
         ],
     },
 ];
@@ -207,42 +207,42 @@ const testimonials = [
         name: "Esther Howard",
         mentions: "@estherhoward",
         review:
-            "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+            "ST Motions was a joy to work with. They completely reimagined our old promotional video and gave it new life with sharp edits, dynamic transitions, and a polished final cut. The result was modern, engaging, and perfectly aligned with our brand.",
         imgPath: "/stmotions/images/client1.png",
     },
     {
         name: "Wade Warren",
         mentions: "@wadewarren",
         review:
-            "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+            "ST Motions’ editing expertise is seriously impressive. They helped us launch a video campaign that not only looked professional but also boosted our online engagement drastically. From storytelling to visuals, their work speaks for itself.",
         imgPath: "/stmotions/images/client3.png",
     },
     {
         name: "Guy Hawkins",
         mentions: "@guyhawkins",
         review:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+            "I can’t say enough good things about ST Motions. They took our scattered raw footage and turned it into a stunning, high-impact video that told our brand story better than we imagined. Their ability to understand our vision and execute it flawlessly is remarkable.",
         imgPath: "/stmotions/images/client2.png",
     },
     {
         name: "Marvin McKinney",
         mentions: "@marvinmckinney",
         review:
-            "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
+            "Working with ST Motions was a fantastic experience. They transformed our basic, unpolished clips into a sleek, cinematic masterpiece. The attention to detail, pacing, and sound design made our content stand out instantly. Highly recommend them for any video editing project!",
         imgPath: "/stmotions/images/client5.png",
     },
     {
         name: "Floyd Miles",
         mentions: "@floydmiles",
         review:
-            "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+            "Collaborating with ST Motions was an absolute pleasure. Their professionalism, creativity, and commitment to delivering top-tier results were evident from day one. If you're looking to level up your visual content and make a real impact, ST Motions is the agency to trust.",
         imgPath: "/stmotions/images/client4.png",
     },
     {
         name: "Albert Flores",
         mentions: "@albertflores",
         review:
-            "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+            "ST Motions exceeded all our expectations. They understood our vision from the start and crafted a video that was both emotionally compelling and technically perfect. Their skills in editing, sound design, and motion graphics are top-notch.",
         imgPath: "/stmotions/images/client6.png",
     },
 ];
@@ -279,7 +279,7 @@ export {
     expLogos,
     testimonials,
     socialImgs,
-    techStackIcons,
+    //techStackIcons,
     techStackImgs,
     navLinks,
 };
