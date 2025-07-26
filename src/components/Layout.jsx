@@ -1,6 +1,6 @@
 // src/components/Layout.jsx
 import React from 'react';
-import Navbar from './Navbar';
+import Navbar from './NavBar.jsx';
 import Footer from './Footer.jsx';
 import { Outlet } from 'react-router-dom';
 
