@@ -34,6 +34,7 @@ const App = () => {
         return (
             <Routes>
                     <Route element={<Layout />}>
+                        <Route path="/" element={<HomePage />} />
                             <Route path="/hero" element={<HomePage />} />
                             <Route path="/contact" element={<Contact />} />
                             <Route path="/experience" element={<ExperienceSection />} />
