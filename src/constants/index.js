@@ -91,24 +91,24 @@ const abilities = [
 
 const techStackImgs = [
     {
-        name: "Visual Storytelling",
-        imgPath: "/stmotions/images/logos/react.png",
+        name: "Video Editing",
+        imgPath: "/stmotions/images/logos/videoedit.png",
     },
     {
         name: "Motion Graphics",
-        imgPath: "/stmotions/images/logos/python.svg",
+        imgPath: "/stmotions/images/logos/motiongrp.png",
     },
     {
         name: "Sound Design",
-        imgPath: "/stmotions/images/logos/node.png",
+        imgPath: "/stmotions/images/logos/soundgn.png",
     },
     {
         name: "Fast Delivery",
-        imgPath: "/stmotions/images/logos/three.png",
+        imgPath: "/stmotions/images/logos/fastdlv.png",
     },
     {
-        name: "Platform Optimization",
-        imgPath: "/stmotions/images/logos/git.svg",
+        name: "SEO",
+        imgPath: "/stmotions/images/logos/seo.png",
     },
 ];
 
@@ -204,45 +204,45 @@ const expLogos = [
 
 const testimonials = [
     {
-        name: "Esther Howard",
-        mentions: "@estherhoward",
+        name: "John Primo",
+        mentions: "@_johnprimo_",
         review:
-            "ST Motions was a joy to work with. They completely reimagined our old promotional video and gave it new life with sharp edits, dynamic transitions, and a polished final cut. The result was modern, engaging, and perfectly aligned with our brand.",
+            "ST Motions was a pleasure to work with. They transformed our old promo video with sharp edits and dynamic transitions, delivering a modern and engaging final cut perfectly aligned with our brand.",
         imgPath: "/stmotions/images/client1.png",
     },
     {
-        name: "Wade Warren",
-        mentions: "@wadewarren",
+        name: "Joachim (Jack) Bosch",
+        mentions: "@jack.bosch",
         review:
-            "ST Motions’ editing expertise is seriously impressive. They helped us launch a video campaign that not only looked professional but also boosted our online engagement drastically. From storytelling to visuals, their work speaks for itself.",
+            "ST Motions did a fantastic job editing our land selling videos. Smoothly detects places by Camera Tracking with clean cuts, great pacing, and exactly what we needed to connect with our audience.",
         imgPath: "/stmotions/images/client3.png",
     },
     {
-        name: "Guy Hawkins",
-        mentions: "@guyhawkins",
+        name: "TRISTAN BARNES",
+        mentions: "@ttristbarnes",
         review:
-            "I can’t say enough good things about ST Motions. They took our scattered raw footage and turned it into a stunning, high-impact video that told our brand story better than we imagined. Their ability to understand our vision and execute it flawlessly is remarkable.",
+            "ST Motions nailed it. They turned my raw workout footage into powerful, high-energy videos that really reflect my brand.",
         imgPath: "/stmotions/images/client2.png",
     },
     {
-        name: "Marvin McKinney",
-        mentions: "@marvinmckinney",
+        name: "Mithun Adhikary",
+        mentions: "@mithunbolchi",
         review:
-            "Working with ST Motions was a fantastic experience. They transformed our basic, unpolished clips into a sleek, cinematic masterpiece. The attention to detail, pacing, and sound design made our content stand out instantly. Highly recommend them for any video editing project!",
+            "ST Motions consistently delivers top-tier edits for my history channels. Their attention to detail and storytelling style bring more views.",
         imgPath: "/stmotions/images/client5.png",
     },
     {
-        name: "Floyd Miles",
-        mentions: "@floydmiles",
+        name: "Sazid",
+        mentions: "@red1_hmm",
         review:
-            "Collaborating with ST Motions was an absolute pleasure. Their professionalism, creativity, and commitment to delivering top-tier results were evident from day one. If you're looking to level up your visual content and make a real impact, ST Motions is the agency to trust.",
+            "As a traveler and fellow agency owner, I value quality—and ST Motions delivers it every time. Their edits capture the essence of every journey perfectly.",
         imgPath: "/stmotions/images/client4.png",
     },
     {
-        name: "Albert Flores",
-        mentions: "@albertflores",
+        name: "𝑪𝒆𝒏𝒕𝒖𝒓𝒚 21 𝑼𝒏𝒊𝒐𝒏 𝑹𝒆𝒂𝒍𝒕𝒚 𝑪𝒐.",
+        mentions: "@c21union",
         review:
-            "ST Motions exceeded all our expectations. They understood our vision from the start and crafted a video that was both emotionally compelling and technically perfect. Their skills in editing, sound design, and motion graphics are top-notch.",
+            "ST Motions brought a fresh, professional touch to our real estate videos. Their editing made our listings stand out and feel more engaging to clients.",
         imgPath: "/stmotions/images/client6.png",
     },
 ];
@@ -250,7 +250,7 @@ const testimonials = [
 const socialImgs = [
     {
         name: "insta",
-        url: "https://www.instagram.com/",
+        url: "https://www.instagram.com/st.motions/",
         imgPath: "/stmotions/images/insta.png",
     },
     {
