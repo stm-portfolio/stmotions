@@ -38,13 +38,13 @@ const ShowcaseSection = () => {
             title: "🎬 YouTube Shorts",
             to: "/shorts",
             bg: "#ffefdb",
-            img: "/stmotions/images/shorts.png",
+            img: "/stmotions/images/thum1.jpeg",
         },
         {
             title: "📱 TikTok / Insta Reels",
             to: "/reels",
             bg: "#fef5e4",
-            img: "/stmotions/images/reels.png",
+            img: "/stmotions/images/th1.jpeg",
         },
     ];
 
