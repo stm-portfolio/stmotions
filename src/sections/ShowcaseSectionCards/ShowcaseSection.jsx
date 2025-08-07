@@ -32,48 +32,36 @@ const ShowcaseSection = () => {
         });
     }, []);
 
-    // Portrait (tall) cards: go under intro (left side)
     const portraitCards = [
         {
             title: "🎬 YouTube Shorts",
             to: "/shorts",
-            bg: "#ffefdb",
-            img: "/stmotions/images/thum1.jpeg",
+            img: "/stmotions/images/yt-shorts.png",
         },
         {
             title: "📱 TikTok / Insta Reels",
             to: "/reels",
-            bg: "#fef5e4",
-            img: "/stmotions/images/th1.jpeg",
+            img: "/stmotions/images/insta-reels.png",
         },
     ];
 
-    // Landscape cards: right side
     const landscapeCards = [
         {
-            title: "📽️ Cinematic B-roll",
-            to: "/b-roll",
-            bg: "#ffe7eb",
-            img: "/stmotions/images/broll.png",
+            title: "📽️ Youtube / Long Videos",
+            to: "/youtube-long-videos",
+            img: "/stmotions/images/yt-long.png",
         },
         {
-            title: "🎞️ Client Edits",
-            to: "/clients-edits",
-            bg: "#eef4ff",
-            img: "/stmotions/images/clients.png",
-        },
-        {
-            title: "📢 Commercial Ads",
-            to: "/comercial-ads",
-            bg: "#ddf7f2",
-            img: "/stmotions/images/ads.png",
+            title: "🎞️ AD /  Course Videos",
+            to: "/ad-course-videos",
+            img: "/stmotions/images/ad-course-videos.png",
         },
     ];
 
     return (
         <section id="work" ref={sectionRef} className="app-showcase">
             <div className="w-full">
-                <div className="showcaselayout xl:flex-row flex-col justify-between gap-10">
+                <div className="showcaselayout xl:flex-row flex-col justify-between gap-10 xl:min-h-screen">
 
                     {/* LEFT SIDE */}
                     <div className="xl:w-[60%] w-full flex flex-col gap-10">
@@ -84,14 +72,14 @@ const ShowcaseSection = () => {
                             style={{ height: "60vh" }}
                         >
                             <iframe
-                                src="https://www.youtube.com/embed/Af7zQgfkMso?si=HmkYroOL6JHK-ilc"
+                                src="https://www.youtube.com/embed/hiJEuoWqaFg"
                                 title="Intro Video"
                                 allowFullScreen
                                 className="absolute top-0 left-0 w-full h-full object-cover rounded-xl"
                             ></iframe>
                         </div>
 
-                        {/* Two portrait cards side-by-side */}
+                        {/* Two portrait cards */}
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             {portraitCards.map((item, i) => (
                                 <Link
@@ -119,16 +107,17 @@ const ShowcaseSection = () => {
                     </div>
 
                     {/* RIGHT SIDE */}
-                    <div className="xl:w-[40%] w-full flex flex-col gap-6">
+                    <div className="xl:w-[40%] w-full flex flex-col gap-6 xl:h-auto xl:max-h-[calc(60vh+380px+2.5rem)]">
                         {landscapeCards.map((item, i) => (
                             <Link
                                 to={item.to}
                                 key={i}
                                 ref={(el) => (landscapeRefs.current[i] = el)}
-                                className="card-border rounded-xl overflow-hidden bg-black-200"
+                                className="card-border rounded-xl overflow-hidden bg-black-200 flex-1 flex flex-col"
                             >
+                                {/* Image Section */}
                                 <div
-                                    className="h-[192px] bg-black-200"
+                                    className="flex-grow bg-black-200"
                                     style={{ backgroundColor: item.bg }}
                                 >
                                     <img
@@ -137,12 +126,15 @@ const ShowcaseSection = () => {
                                         className="w-full h-full object-cover rounded-xl"
                                     />
                                 </div>
+
+                                {/* Title Section */}
                                 <h2 className="text-white font-semibold text-lg mt-3 px-3 pb-3">
                                     {item.title}
                                 </h2>
                             </Link>
                         ))}
                     </div>
+
                 </div>
             </div>
         </section>

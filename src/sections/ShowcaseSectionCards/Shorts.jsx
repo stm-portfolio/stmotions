@@ -8,20 +8,20 @@ gsap.registerPlugin(ScrollTrigger);
 const Shorts = () => {
     const videos = [
         {
-            title: "Short – Comedy Skit",
-            url: "https://drive.google.com/file/d/FILE_ID_1/preview",
+            title: "Short – Finance",
+            url: "https://drive.google.com/file/d/1JvS3gQAxt21G-HStRUU5QWi9wxREbgSj/preview",
         },
         {
-            title: "Tech Tip in 30s",
-            url: "https://drive.google.com/file/d/FILE_ID_2/preview",
+            title: "AI Voice-over",
+            url: "https://drive.google.com/file/d/1R_d2eu1QSTVe7KlwybCsItV7EMz5trdu/preview",
         },
         {
-            title: "Travel Short – Mountains",
-            url: "https://drive.google.com/file/d/FILE_ID_3/preview",
+            title: "Podcast Clip",
+            url: "https://drive.google.com/file/d/1WZSWpmT_eeQBa4b72SMKmOUNCaBzvmi0/preview",
         },
         {
-            title: "Music Sync – Reels Style",
-            url: "https://drive.google.com/file/d/FILE_ID_4/preview",
+            title: "Real Estate Shorts",
+            url: "https://drive.google.com/file/d/1tiwlYYOffZ0SOOkRhTy7iQhK1ud4hD-7/preview",
         },
     ];
 

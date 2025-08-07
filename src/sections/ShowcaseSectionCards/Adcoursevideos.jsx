@@ -7,8 +7,8 @@ gsap.registerPlugin(ScrollTrigger);
 
 const videos = [
     {
-        title: 'Portrait – Makeup Studio',
-        url: 'https://drive.google.com/file/d/FILE_ID_1/preview',
+        title: 'Brand Awareness',
+        url: 'https://drive.google.com/file/d/1hgaBWPr3PxuQWNKKVVhI3N3R4rdgwDM3/preview',
         type: 'portrait'
     },
     {
@@ -22,23 +22,19 @@ const videos = [
         type: 'landscape'
     },
     {
-        title: 'Portrait – Instagram Ad',
-        url: 'https://drive.google.com/file/d/FILE_ID_4/preview',
+        title: 'Personal Branding',
+        url: 'https://drive.google.com/file/d/1LPyyrLDwHit0TXjtReDeHK9KffIdB8Ef/preview',
         type: 'portrait'
     },
     {
-        title: 'Portrait – Testimonial',
-        url: 'https://drive.google.com/file/d/FILE_ID_5/preview',
+        title: 'Live Project',
+        url: 'https://drive.google.com/file/d/1IJJFPsHU9CFtifI4rxc8nRxWuIyYLTjQ/preview',
         type: 'portrait'
     },
-    {
-        title: 'Portrait – Behind the Scenes',
-        url: 'https://drive.google.com/file/d/FILE_ID_6/preview',
-        type: 'portrait'
-    }
+
 ];
 
-const Clients = () => {
+const Adcoursevideos = () => {
     const cardRefs = useRef([]);
     const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -70,9 +66,9 @@ const Clients = () => {
     };
 
     return (
-        <div className="min-h-screen bg-black text-white px-4 py-10">
+        <div className="section-padding bg-black text-white px-4 py-10">
             <h1 className="text-2xl sm:text-3xl font-bold mb-8 flex items-center">
-                <span className="text-blue-400 mr-2">🎞️</span> Client Edits
+                <span className="text-blue-400 mr-2">🎞️</span> AD /  Course Videos
             </h1>
 
             {/* Desktop Grid Layout - centered */}
@@ -166,4 +162,4 @@ const Clients = () => {
     );
 };
 
-export default Clients;
+export default Adcoursevideos;

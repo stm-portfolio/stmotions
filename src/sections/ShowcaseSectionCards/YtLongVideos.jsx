@@ -5,7 +5,7 @@ import { useGSAP } from '@gsap/react';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const Broll = () => {
+const YtLongVideos = () => {
     const videos = [
         {
             title: "Cinematic B-roll – Nature",
@@ -59,7 +59,7 @@ const Broll = () => {
 
     return (
         <div className="section-padding text-white">
-            <h1 className="text-3xl font-bold mb-10">📽️ Cinematic B-roll</h1>
+            <h1 className="text-3xl font-bold mb-10">📽️ Youtube Long Videos</h1>
 
             {/* MOBILE SLIDER */}
             <div className="sm:hidden relative w-full max-w-[90vw] mx-auto">
@@ -119,4 +119,4 @@ const Broll = () => {
     );
 };
 
-export default Broll;
+export default YtLongVideos;

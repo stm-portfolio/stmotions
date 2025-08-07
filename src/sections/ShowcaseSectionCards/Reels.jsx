@@ -8,21 +8,18 @@ gsap.registerPlugin(ScrollTrigger);
 const Shorts = () => {
     const videos = [
         {
-            title: "Short – Comedy Skit",
-            url: "https://drive.google.com/file/d/FILE_ID_1/preview",
+            title: "Short – ST Motions",
+            url: "https://drive.google.com/file/d/1MqSICCwNT3dORT7xv8bd-3otA5l_lZ7z/preview",
         },
         {
-            title: "Tech Tip in 30s",
-            url: "https://drive.google.com/file/d/FILE_ID_2/preview",
+            title: "Person's Introduction",
+            url: "https://drive.google.com/file/d/1gTAbSctjm0d00Usp9fF0SQ78BY5e0B40/preview",
         },
         {
-            title: "Travel Short – Mountains",
-            url: "https://drive.google.com/file/d/FILE_ID_3/preview",
+            title: "Comparison Random Edits",
+            url: "https://drive.google.com/file/d/1FqkSjP7lGoj70zwJMgZqKUS9JSfRbejP/preview",
         },
-        {
-            title: "Music Sync – Reels Style",
-            url: "https://drive.google.com/file/d/FILE_ID_4/preview",
-        },
+
     ];
 
     const [current, setCurrent] = useState(0);
@@ -59,7 +56,7 @@ const Shorts = () => {
 
     return (
         <div className="section-padding text-white">
-            <h1 className="text-3xl font-bold mb-10">🎬 YouTube Shorts</h1>
+            <h1 className="text-3xl font-bold mb-10">🎬 Insta Reels</h1>
 
             {/* MOBILE SLIDER */}
             <div className="sm:hidden relative w-full max-w-[90vw] mx-auto">

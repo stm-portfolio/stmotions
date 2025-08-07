@@ -8,10 +8,6 @@ const navLinks = [
         link: "#experience",
     },
     {
-        name: "Skills",
-        link: "#skills",
-    },
-    {
         name: "Testimonials",
         link: "#testimonials",
     },
@@ -148,41 +144,41 @@ const techStackImgs = [
 const expCards = [
     {
         review:
-            "ST Motions brought creativity and storytelling finesse to our brand’s content. Their edits elevated our video marketing, improving viewer retention and engagement.",
+            "ST Motions has been instrumental in enhancing our property marketing. His polished editing style and creative input consistently turn listings into visually compelling stories that drive engagement and leads.",
         imgPath: "/stmotions/images/exp1.png",
         logoPath: "/stmotions/images/logo1.png",
         title: "Senior Video Editor",
-        date: "January 2023 - Present",
+        date: "April 2021 - August 2022",
         responsibilities: [
-            "Edited high-impact promotional and documentary-style videos for global clients.",
-            "Collaborated with marketing teams to craft compelling narratives.",
-            "Used advanced editing techniques in Adobe Premiere Pro and After Effects to boost engagement rates.",
+            "Edit promotional and property showcase videos tailored for real estate marketing across web and social platforms.",
+            "Incorporate branding, motion graphics, and client feedback to create polished, professional content.",
+            "Manage end-to-end video production workflow while ensuring high-quality delivery under tight deadlines.",
         ],
     },
     {
         review:
-            "ST Motions’ contributions to our YouTube channel were game-changing. Their sharp cuts and creative transitions helped us grow from 10k to 100k subscribers.",
+            "ST Motions’ brought a cinematic touch to our storytelling. His attention to pacing, visuals, and sound design helped elevate our videos, keeping viewers engaged from start to finish.",
         imgPath: "/stmotions/images/exp2.png",
         logoPath: "/stmotions/images/logo2.png",
         title: "YouTube Video Editor",
-        date: "June 2020 - December 2022",
+        date: "June 2022 - Present",
         responsibilities: [
-            "Delivered weekly edited videos for top-tier YouTube influencers across lifestyle and tech niches.",
-            "Applied motion graphics and sound design to enhance viewer experience.",
-            "Managed tight deadlines and ensured brand consistency across all videos.",
+            "Edit long-form YouTube videos with engaging pacing, sound design, and visual effects tailored to storytelling.",
+            "Add cinematic transitions, stock footage, and background music to enhance viewer retention and emotional impact.",
+            "Collaborate closely with the content team to ensure each episode aligns with the channel's tone, narrative, and audience expectations.",
         ],
     },
     {
         review:
-            "ST Motions worked magic on our client ads. Their attention to pacing and emotion made our video campaigns stand out and drive real conversions.",
+            "A highly skilled and reliable editor. Delivers top-quality commercial, motion, and 3D edits with speed and creativity using both Adobe and AI tools.",
         imgPath: "/stmotions/images/exp3.png",
         logoPath: "/stmotions/images/logo3.png",
-        title: "Ad Creative Specialist",
-        date: "March 2019 - May 2020",
+        title: "Full-Stack Video Editor & Motion Designer",
+        date: "March 2023 - Present",
         responsibilities: [
-            "Produced ad creatives for Facebook, Instagram, and TikTok campaigns.",
-            "Executed A/B edits to test different visual approaches for better performance.",
-            "Coordinated with media buyers to understand campaign goals and adapt edits accordingly.",
+            "Edit commercial videos, motion graphics, and 3D content for diverse platforms.",
+            "Use Adobe tools and AI software to enhance editing workflow and quality.",
+            "Collaborate with teams and clients to deliver engaging, on-brand content.",
         ],
     },
 ];
@@ -255,7 +251,7 @@ const socialImgs = [
     },
     {
         name: "fb",
-        url: "https://www.facebook.com/",
+        url: "https://www.facebook.com/stmotions",
         imgPath: "/stmotions/images/fb.png",
     },
     {
@@ -265,7 +261,7 @@ const socialImgs = [
     },
     {
         name: "linkedin",
-        url: "https://www.linkedin.com/",
+        url: "https://www.linkedin.com/company/st-motions/",
         imgPath: "/stmotions/images/linkedin.png",
     },
 ];
