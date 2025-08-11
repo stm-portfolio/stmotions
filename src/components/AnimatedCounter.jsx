@@ -1,4 +1,4 @@
-import {counterItems} from "../constants/index.js";
+import { counterItems } from "../constants/index.js";
 import CountUp from "react-countup";
 
 const AnimatedCounter = () => {
@@ -6,23 +6,27 @@ const AnimatedCounter = () => {
         <div id="counter" className="padding-x-lg xl:mt-0 mt-32">
             <div className="mx-auto grid-4-cols">
                 {counterItems.map((item) => (
-
-                    <div className="bg-zinc-900 rounded-lg p-10 flex flex-col justify-center">
-
-                        <div key={counterItems.label} className="counter-number text-white text-5xl font-bold mb-2">
-                            <CountUp suffix={item.suffix} end={item.value} />
-
+                    <div
+                        key={item.label}
+                        className="bg-zinc-900 rounded-lg p-10 flex flex-col justify-center"
+                    >
+                        <div className="counter-number text-white text-5xl font-bold mb-2">
+                            <CountUp
+                                suffix={item.suffix}
+                                end={item.value}
+                                duration={5} // slow counting
+                                start={0}
+                                enableScrollSpy // starts when visible
+                                scrollSpyDelay={200} // small delay before starting
+                            />
                         </div>
 
                         <div className="text-white-50 text-lg">{item.label}</div>
-
                     </div>
-
-                    ))}
-
+                ))}
             </div>
-
         </div>
-    )
-}
-export default AnimatedCounter
+    );
+};
+
+export default AnimatedCounter;

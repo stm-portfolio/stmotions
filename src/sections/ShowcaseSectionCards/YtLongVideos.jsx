@@ -9,19 +9,19 @@ const YtLongVideos = () => {
     const videos = [
         {
             title: "Cinematic B-roll – Nature",
-            url: "https://drive.google.com/file/d/FILE_ID_1/preview",
+            url: "https://drive.google.com/file/d/1KyPzsRRzlsp1tYlQlntovdC3c1iGa8nC/preview",
         },
         {
             title: "Slow Motion Urban Shot",
-            url: "https://drive.google.com/file/d/FILE_ID_2/preview",
+            url: "https://drive.google.com/file/d/1Kz59NOhYcEC2UIoM8RtRWIpjMK1fMoZm/preview",
         },
         {
             title: "Product B-roll – Coffee",
-            url: "https://drive.google.com/file/d/FILE_ID_3/preview",
+            url: "https://drive.google.com/file/d/1CatCAKw-x3TkET-C1ov0AnSgMKaIILDz/preview",
         },
         {
             title: "Lifestyle B-roll Sequence",
-            url: "https://drive.google.com/file/d/FILE_ID_4/preview",
+            url: "https://drive.google.com/file/d/1pmxwl7qprGr9xcmtvcedmDMSg8CiSr1H/preview",
         },
     ];
 

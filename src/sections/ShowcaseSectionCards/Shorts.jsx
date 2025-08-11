@@ -11,10 +11,7 @@ const Shorts = () => {
             title: "Short – Finance",
             url: "https://drive.google.com/file/d/1JvS3gQAxt21G-HStRUU5QWi9wxREbgSj/preview",
         },
-        {
-            title: "AI Voice-over",
-            url: "https://drive.google.com/file/d/1R_d2eu1QSTVe7KlwybCsItV7EMz5trdu/preview",
-        },
+
         {
             title: "Podcast Clip",
             url: "https://drive.google.com/file/d/1WZSWpmT_eeQBa4b72SMKmOUNCaBzvmi0/preview",
@@ -22,6 +19,10 @@ const Shorts = () => {
         {
             title: "Real Estate Shorts",
             url: "https://drive.google.com/file/d/1tiwlYYOffZ0SOOkRhTy7iQhK1ud4hD-7/preview",
+        },
+        {
+            title: "AI Voice-over",
+            url: "https://drive.google.com/file/d/1R_d2eu1QSTVe7KlwybCsItV7EMz5trdu/preview",
         },
     ];
 

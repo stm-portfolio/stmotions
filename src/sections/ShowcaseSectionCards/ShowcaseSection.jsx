@@ -72,7 +72,7 @@ const ShowcaseSection = () => {
                             style={{ height: "60vh" }}
                         >
                             <iframe
-                                src="https://www.youtube.com/embed/hiJEuoWqaFg"
+                                src="https://www.youtube.com/embed/hiJEuoWqaFg?rel=0"
                                 title="Intro Video"
                                 allowFullScreen
                                 className="absolute top-0 left-0 w-full h-full object-cover rounded-xl"

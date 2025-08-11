@@ -8,22 +8,22 @@ gsap.registerPlugin(ScrollTrigger);
 const videos = [
     {
         title: 'Brand Awareness',
-        url: 'https://drive.google.com/file/d/1hgaBWPr3PxuQWNKKVVhI3N3R4rdgwDM3/preview',
+        url: 'https://drive.google.com/file/d/1bQg3v2fFanl04k14fUfqKqbs-daQYNoh/preview',
         type: 'portrait'
     },
     {
         title: 'Landscape – Product Edit',
-        url: 'https://drive.google.com/file/d/FILE_ID_2/preview',
+        url: 'https://drive.google.com/file/d/1fHRlGHAsp_OSURIErG92Amb4ndP8AXrB/preview',
         type: 'landscape'
     },
     {
         title: 'Landscape – Interview Clip',
-        url: 'https://drive.google.com/file/d/FILE_ID_3/preview',
+        url: 'https://drive.google.com/file/d/1x22aka3ASDckPOF9yvRLjC4LztZNveBv/preview',
         type: 'landscape'
     },
     {
         title: 'Personal Branding',
-        url: 'https://drive.google.com/file/d/1LPyyrLDwHit0TXjtReDeHK9KffIdB8Ef/preview',
+        url: 'https://drive.google.com/file/d/1RXk11KtvKROnONN2bG7fExOOCJJC8GZp/preview',
         type: 'portrait'
     },
     {
